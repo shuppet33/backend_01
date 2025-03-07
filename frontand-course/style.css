@@ -1,0 +1,52 @@
+
+form {
+   display: flex;
+   flex-direction: column;
+   max-width: 300px;
+
+   margin: 15px;
+}
+
+form input {
+   display: block;
+   margin-top: 15px;
+}
+
+form button {
+   display: block;
+   max-width: 150px;
+   margin-top: 20px;
+}
+
+
+#posts {
+   display: flex;
+   gap: 2em;
+   flex-wrap: wrap;
+}
+
+#posts div {
+   padding: 15px;
+   background-color: aliceblue;
+   min-width: 120px;
+   text-align: center;
+}
+
+#posts div h4 {
+   color: #c03b3b;
+   text-align: left;
+   margin: 0;
+   padding: 0;
+}
+
+#posts div h2 {
+   color: #4c34b8;
+   margin: 10px 0px;
+   padding: 0;
+}
+
+#posts div p {
+   margin: 15px 0 0 0;
+   padding: 0;
+}
+
